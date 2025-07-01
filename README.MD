@@ -36,7 +36,7 @@ https://craftpix.net/freebies/free-cartoon-forest-game-backgrounds/
 SOUND: 
 
 Background music
-https://pixabay.com/music/video-games-chiptune-grooving-142242/
+https://pixabay.com/music/video-games-retro-game-arcade-236133/
 
 Player dead sound
 https://freesound.org/people/Soundholder/sounds/425341/
