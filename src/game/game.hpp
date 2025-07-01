@@ -15,8 +15,6 @@
 #include <SFML/Graphics.hpp>
 
 #include "scenes.hpp"
-#include "constants.hpp"
-#include "flags.hpp"
 
 class GameManager {
 public:

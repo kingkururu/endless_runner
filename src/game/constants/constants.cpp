@@ -8,7 +8,7 @@
 #include "constants.hpp"
 
 namespace Constants {
-// background components (static)
+    // background components (static)
     const sf::Vector2f BACKGROUND_POSITION = {0.0f, 0.0f};
     const sf::Vector2f BACKGROUND_SCALE = {0.5f, 0.5f};
     std::shared_ptr<sf::Texture> BACKGROUND_TEXTURE = std::make_shared<sf::Texture>();

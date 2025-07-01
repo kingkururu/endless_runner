@@ -16,11 +16,8 @@
 #include <vector>
 #include <memory>
 
-#include "sprites.hpp"
 #include "sound.hpp"
 #include "fonts.hpp"
-#include "constants.hpp"
-#include "flags.hpp"
 #include "physics.hpp"
 #include "utils.hpp"
 
