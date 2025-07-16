@@ -40,8 +40,8 @@ Dodge as many slimes and bushes as possible while scoring points. The player can
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/endless_runner_sfml_game
-   cd endless_runner_sfml_game
+   git clone https://github.com/kingkururu/endless_runner
+   cd endless_runner (location will be different)
    ```
 
 2. **Build the game**:
