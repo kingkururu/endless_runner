@@ -62,13 +62,13 @@ Dodge as many slimes and bushes as possible while scoring points. The player can
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    
    # Install SFML
-   brew install sfml
+   brew install sfml@2
    ```
 
 2. **Configure PATH** (add to ~/.zshrc or ~/.bash_profile):
    ```bash
    export PATH="/opt/homebrew/bin:$PATH"
-   export PATH="/opt/homebrew/opt/sfml/bin:$PATH"
+   export PATH="/opt/homebrew/opt/sfml@2/bin:$PATH"
    ```
 
 ## 📁 Project Structure
