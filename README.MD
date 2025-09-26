@@ -1,4 +1,4 @@
-# Endless Runner 🎮
+# Endless Runner
 
 A 2D endless runner game built with C++ and SFML, inspired by the Chrome dinosaur game. Features dynamic obstacle spawning, shooting mechanics, and challenging gameplay.
 
@@ -6,11 +6,11 @@ A 2D endless runner game built with C++ and SFML, inspired by the Chrome dinosau
 
 <img width="1470" alt="Screenshot 2024-09-01 at 8 31 22 PM" src="https://github.com/user-attachments/assets/0e67357e-c94d-4c67-95ca-f2b09813ca46">
 
-## 🎯 Objective
+## Objective
 
 Dodge as many slimes and bushes as possible while scoring points. The player can jump by pressing the spacebar and move up or down on the grass using the W and S keys. Bullets are fired with a mouse click and travel in the direction of the cursor, continuing off-screen. Successfully avoiding a bush or hitting a slime with a bullet increases the score by one point. The game ends if the player is hit by either a slime or a bush.
 
-## 🎮 How to Play
+## How to Play
 
 - **Movement**: Use `W` key to move up, `S` key to move down
 - **Jumping**: Press `spacebar` to jump over obstacles
@@ -19,7 +19,7 @@ Dodge as many slimes and bushes as possible while scoring points. The player can
 - **Scoring**: Each obstacle avoided or destroyed = 1 point
 - **Restart**: Press `B` after game over to play again
 
-## 🛠️ Technical Features
+## Technical Features
 
 - **Engine**: SFML (Simple and Fast Multimedia Library)
 - **Language**: C++
@@ -29,7 +29,7 @@ Dodge as many slimes and bushes as possible while scoring points. The player can
 - **Audio**: Integrated sound effects and background music
 - **Sprites**: Sprite bitmask generation and class hierarchy modifications
 
-## 🚀 Building & Running
+## Building & Running
 
 ### Prerequisites
 - SFML 2.x library
@@ -71,7 +71,7 @@ Dodge as many slimes and bushes as possible while scoring points. The player can
    export PATH="/opt/homebrew/opt/sfml@2/bin:$PATH"
    ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 endless_runner_sfml_game/
@@ -93,7 +93,7 @@ endless_runner_sfml_game/
 └── README.md
 ```
 
-## 🎨 Assets
+## Assets
 
 ### Sprites
 - **Main player sprite**: [Free Pixel Art Tiny Hero Sprites](https://craftpix.net/freebies/free-pixel-art-tiny-hero-sprites/)
@@ -109,7 +109,7 @@ endless_runner_sfml_game/
 ### Font
 - **Pixel font**: [Pixel Font Collection](https://www.dafont.com/search.php?q=pixel&page=1)
 
-## 🎯 Key Learning Outcomes
+## Key Learning Outcomes
 
 - Game development fundamentals with SFML
 - Object-oriented programming in C++
@@ -121,7 +121,7 @@ endless_runner_sfml_game/
 - Scene management and modular architecture
 - Physics simulation and raycasting
 
-## 🎮 Game Mechanics
+## Game Mechanics
 
 This Chrome dinosaur-inspired endless runner features:
 - **Dynamic Difficulty**: Slimes and bushes spawn at decreasing time intervals
@@ -130,7 +130,7 @@ This Chrome dinosaur-inspired endless runner features:
 - **Multi-directional Movement**: Up/down movement plus jumping mechanics
 - **Responsive Controls**: Smooth movement and precise bullet targeting
 
-## 🏆 Advanced Features
+## Advanced Features
 
 - **New scenes system**: Flags/utils/constants class organization
 - **Enhanced physics**: Circle-based, 2D raycasting, and pixel-perfect collision detection
