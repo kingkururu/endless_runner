@@ -1,6 +1,7 @@
 # Endless Runner
 
 A 2D endless runner game built with C++ and SFML, inspired by the Chrome dinosaur game. Features dynamic obstacle spawning, shooting mechanics, and challenging gameplay.
+- **SFML**: https://github.com/SFML/SFML 
 
 ## GAMEPLAY SCREENSHOT
 
