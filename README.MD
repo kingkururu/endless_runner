@@ -17,14 +17,11 @@ Dodge as many slimes and bushes as possible while scoring points. The player can
 - **Shooting**: Click on screen to shoot bullets toward your cursor
 - **Goal**: Avoid or destroy obstacles to score points
 - **Scoring**: Each obstacle avoided or destroyed = 1 point
-- **Restart**: Press `B` after game over to play again
 
 ## Technical Features
 
-- **Engine**: SFML (Simple and Fast Multimedia Library)
-- **Language**: C++
 - **Architecture**: Modular design with scenes system for improved organization
-- **Physics**: Circle-based collision detection, 2D raycasting, AABB, and pixel-perfect collisions
+- **Physics**: 2D raycasting, AABB collisions
 - **Memory Management**: Smart pointers with unique_ptr & shared_ptr for safer memory handling
 - **Audio**: Integrated sound effects and background music
 - **Sprites**: Sprite bitmask generation and class hierarchy modifications
@@ -116,10 +113,8 @@ endless_runner_sfml_game/
 - Advanced C++ features (smart pointers, template metaprogramming)
 - 2D graphics rendering and sprite management
 - Real-time input handling and game loops
-- Multiple collision detection algorithms (AABB, circle-based, pixel-perfect)
+- Multiple collision detection algorithms (AABB, raycasting)
 - Audio system integration
-- Scene management and modular architecture
-- Physics simulation and raycasting
 
 ## Game Mechanics
 
@@ -133,8 +128,6 @@ This Chrome dinosaur-inspired endless runner features:
 ## Advanced Features
 
 - **New scenes system**: Flags/utils/constants class organization
-- **Enhanced physics**: Circle-based, 2D raycasting, and pixel-perfect collision detection
-- **Sprite bitmask generation**: Optimized collision detection
 - **Smart pointer implementation**: Modern C++ memory management
 - **Template metaprogramming**: Advanced C++ techniques for generic collision handling
 - **Modular architecture**: Cleaner code separation with improved maintainability
